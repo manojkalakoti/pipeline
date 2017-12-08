@@ -16,7 +16,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'pwd'
-                build job:'Bas'
             }
         }
     }
