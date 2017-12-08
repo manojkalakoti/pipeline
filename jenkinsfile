@@ -1,4 +1,4 @@
-[11:52 AM, 12/8/2017] Ravi Consultency: pipeline {
+pipeline {
     agent any
     parameters {
         string(name: 'Branch', defaultValue: 'default', description: 'Select which branch you want to select')
