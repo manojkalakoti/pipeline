@@ -1,3 +1,6 @@
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/manojkalakoti/pipeline.git'],
+            pipelineTriggers([githubPush()])])
+
 pipeline {
     agent any 
 
